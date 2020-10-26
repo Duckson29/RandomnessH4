@@ -10,7 +10,7 @@ namespace RNGCryptoServiceProviderH4
         {
             Stopwatch stopwatch = new Stopwatch();
             int n = 100000000;
-            using (RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider())
+            using (RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider() )
             {
                 byte[] data = new byte[4];
                 int value = 0;
